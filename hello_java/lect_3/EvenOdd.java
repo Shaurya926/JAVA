@@ -1,3 +1,5 @@
+package lect_3;
+
 public class EvenOdd {
     public static void main(StringOperation[] args) {
         int a = 5;

@@ -1,3 +1,5 @@
+package lect_3;
+
 public class StringOperation {
     public static void main(String[] args) {
         String str = "Hello Java";
