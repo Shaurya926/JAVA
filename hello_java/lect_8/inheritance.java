@@ -9,12 +9,19 @@ class animal{
         void bark(){
             System.out.println("woof");
         }
+        }
+        class puppy extends dog{
+    void sleep(){
+        System.out.println("woooof");
+    }
     }
     class main{
         public static void main(String[] args){
-            dog a=new dog();
+            puppy a=new puppy();
             a.eat();
             a.bark();
+            a.sleep();
+
         }
     }
 
