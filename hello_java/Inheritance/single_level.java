@@ -2,7 +2,7 @@ package Inheritance;
 
 class book{
     void fire_and_blood(){
-        System.out.println("strongest house in westeros");
+        System.out.println("Strongest house in westeros");
     }
 }
 class book_1 extends book{
