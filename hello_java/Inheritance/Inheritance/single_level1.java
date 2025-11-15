@@ -7,11 +7,10 @@ class Manager extends Employee{
     void attend_meeting(){
         System.out.println("Attend meeting:20/25");
     }
-}class Emp {
-    void main() {
-        Employee e = new Employee();
-        e.work();
-        Manager m = new Manager();
-        m.attend_meeting();
-    }
+}
+void main(){
+    Employee e = new Employee();
+    e.work();
+    Manager m = new Manager();
+    m.attend_meeting();
 }

@@ -13,14 +13,12 @@ class gaming_laptop extends laptop{
         System.out.println("PUBG GAMING...");
     }
 }
-class GamLap {
-    void main() {
-        device d = new device();
-        d.power_on();
-        laptop l = new laptop();
-        l.boot();
-        gaming_laptop g = new gaming_laptop();
-        g.start_gaming();
-    }
+void main(){
+    device d = new device();
+    d.power_on();
+    laptop l = new laptop();
+    l.boot();
+    gaming_laptop g = new gaming_laptop();
+    g.start_gaming();
 }
 
