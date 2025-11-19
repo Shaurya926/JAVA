@@ -1,10 +1,11 @@
 package lect_10;
-class animal{
+
+class animal1{
     void eat(){
         System.out.println("burger");
     }
 }
-class dog extends animal{
+class dog1 extends animal1{
     void eat(){
         System.out.println("biryanii");
     }
@@ -13,10 +14,13 @@ class dog extends animal{
     }
 }
 
-public class main {
-    public static void main(String[] args) {
-        animal a = new dog();
+public class down {
+    static void main() {
+        animal1 a=new dog1();
         a.eat();
+        dog1 s2=(dog1)a;
+        s2.d();
+
+
     }
-}
-//Upper casting
+}// Down Casting
