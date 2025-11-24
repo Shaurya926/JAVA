@@ -1,7 +1,7 @@
 package lect_13;
 
 public class V {
-    void show(){
+    public void show(){
         System.out.println("Zee");
     }
 }
