@@ -14,5 +14,7 @@ class list1Main {
         List1.add(1,11);
         List1.addAll(List);
         System.out.println(List1);
+        int first = List1.get(0);
+        int last = List1.get(List1.size()-1);
     }
 }
