@@ -16,5 +16,9 @@ class list1Main {
         System.out.println(List1);
         int first = List1.get(0);
         int last = List1.get(List1.size()-1);
+        System.out.println(first);
+        System.out.println(last);
+        List1.set(2,3);
+        System.out.println(List1);
     }
 }
