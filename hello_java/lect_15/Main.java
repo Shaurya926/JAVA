@@ -1,7 +1,7 @@
 package lect_15;
 import java.util.*;
 class Main {
-    public static void main(String[] args) {
+    public static void main(String1[] args) {
         HashMap<Integer,Integer> map = new HashMap<>();
         map.put(1,3);
         map.put(2,4);
