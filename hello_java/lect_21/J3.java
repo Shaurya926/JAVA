@@ -3,6 +3,7 @@ package lect_21;
 import java.util.*;
 
 // File downloading.
+//MultiThreading.
 class MyThread2 extends Thread {
     public void run() {
         System.out.println("Hello World");
