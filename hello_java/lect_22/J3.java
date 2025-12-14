@@ -15,4 +15,4 @@ public class J3 {
         System.out.println(result);
         System.out.println(mapresult);
     }
-}
+}// map() is used to transform each element of a stream and produce a new result.

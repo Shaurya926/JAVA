@@ -3,6 +3,7 @@ package lect_22;
 class myThread implements Runnable{
     public void run(){
         System.out.println("My thread is running");
+        System.out.println("My thread is completed");
     }
 }
 public class J1 {
