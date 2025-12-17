@@ -1,6 +1,6 @@
 package lect_15;
 import java.util.*;
-public class Traget {
+public class J4 {
     public static void main(String[] args) {
         int ar[]={2,7,5,4};
         HashMap<Integer,Integer>map=new HashMap<>();
