@@ -1,39 +1,51 @@
 package lect_16;
+
 import java.util.ArrayList;
 import java.util.Collections;
 
-
-class Student implements Comparable<Student>{
+// Creating arraylist of students info like name,age and organizing them in ascending order
+// according to their roll numbers.
+class Student implements Comparable<Student> {
     String name;
     int age;
     int Roll_number;
+
     public Student(String name, int age, int Roll_number) {
         this.name = name;
         this.age = age;
         this.Roll_number = Roll_number;
     }
+
     public int compareTo(Student s1) {
         return this.Roll_number - s1.Roll_number;
     }
+
     public String toString() {
         return this.name + " " + this.age + " " + this.Roll_number;
     }
 }
+
 class M1 {
     public static void main(String[] args) {
         ArrayList<Student> list = new ArrayList<>();
-        list.add(new Student("Om",22,56));
-        list.add(new Student("Shaurya",22,55));
-        list.add(new Student("Ram",22,60));
-        list.add(new Student("Vansh",22,57));
-        list.add(new Student("Shanya",22,53));
-        list.add(new Student("Arya",22,58));
-        list.add(new Student("Siddharth",22,52));
-        list.add(new Student("Vishwajeet",22,54));
-        list.add(new Student("Soniya",22,50));
-        list.add(new Student("Aditya",22,59));
-        list.add(new Student("Aryan",22,51));
+        list.add(new Student("Om", 22, 56));
+        list.add(new Student("Shaurya", 22, 55));
+        list.add(new Student("Ram", 22, 60));
+        list.add(new Student("Vansh", 22, 57));
+        list.add(new Student("Shanya", 22, 53));
+        list.add(new Student("Arya", 22, 58));
+        list.add(new Student("Siddharth", 22, 52));
+        list.add(new Student("Vishwajeet", 22, 54));
+        list.add(new Student("Soniya", 22, 50));
+        list.add(new Student("Aditya", 22, 59));
+        list.add(new Student("Aryan", 22, 51));
         Collections.sort(list);
+//        - It sorts the elements of list in place (meaning the original list gets modified).
+//                - The sorting is based on the natural ordering of the elements:
+//        - Numbers → ascending (e.g., [5, 2, 9] → [2, 5, 9])
+//        - Strings → alphabetical (e.g., ["dog", "apple", "cat"] → ["apple", "cat", "dog"])
+//        - The elements must implement the Comparable interface (like Integer, String, etc. already do).
+
         System.out.println(list.toString());
     }
 }

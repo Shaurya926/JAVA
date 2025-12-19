@@ -2,6 +2,7 @@ package lect_16;
 
 import java.util.ArrayList;
 import java.util.Collections;
+// Basic to create a list and how to use "collections.sort();"
 
 class Main {
     public static void main(String[] args) {
