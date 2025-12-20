@@ -9,3 +9,7 @@ public class type_casting {
             System.out.println("Integer value:"+i);
         }
 }
+//Key Concept: Type Casting
+//        - Widening (implicit): Smaller type → larger type (e.g., int → float). Happens automatically.
+//        - Narrowing (explicit): Larger type → smaller type (e.g., float → int). Requires explicit cast
+//          because data may be lost.
