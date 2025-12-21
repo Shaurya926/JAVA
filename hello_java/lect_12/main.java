@@ -1,5 +1,12 @@
 package lect_12;
+// This program purpose
+// To find out the area of a different shape
+// Applying abstract class method
+// Using overriding.
+
 abstract class shape
+// - Abstract methods (methods without a body, only a declaration)
+
 {
     abstract void area();
 }
