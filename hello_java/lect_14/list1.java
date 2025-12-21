@@ -2,6 +2,9 @@ package lect_14;
 
 import java.util.ArrayList;
 
+//This program is about...
+//To print arraylist and add element in array to it's assing index number.
+
 class list1Main {
     public static void main(String[] args) {
         ArrayList<Integer> List =new ArrayList<>();
@@ -9,7 +12,7 @@ class list1Main {
         List.add(5);
         List.add(6);
         List.add(0,22);
-        System.out.println(List);
+        System.out.println("Element "+List);
         List1.add(1);
         List1.add(1,11);
         List1.addAll(List);

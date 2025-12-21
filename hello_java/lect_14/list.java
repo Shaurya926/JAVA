@@ -6,7 +6,7 @@ class List {
         List.add(5);
         List.add(6);
         List.add(0,22);
-        System.out.println(List);
+        System.out.println("ArrayList element"+List);
 
     }
 }

@@ -1,5 +1,9 @@
 package lect_14;
 import java.util.ArrayList;
+
+//This program is about...
+// Creating an arraylist and using for loop to print the list
+
 class list2Main {
     public static void main(String[] args) {
         ArrayList<Integer> List = new ArrayList<>();
