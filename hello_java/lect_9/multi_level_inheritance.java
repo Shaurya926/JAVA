@@ -1,3 +1,6 @@
+//J2_of_lect_9.
+//Multi level inheritance done by overloading.
+
 class person{
     void display_name(){
         System.out.println("Name of person: Shaurya Dubey");

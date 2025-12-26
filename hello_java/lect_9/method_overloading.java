@@ -1,3 +1,7 @@
+//This code explain overloading concept.
+//- Definition: Having multiple methods in the same class with the same name but
+// different parameter lists (number or type of arguments).
+
 class mo{
     void add(int a){
         System.out.println(a);

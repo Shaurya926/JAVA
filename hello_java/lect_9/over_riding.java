@@ -1,3 +1,7 @@
+//This program explain over-riding.
+//- Definition: When a subclass provides a specific implementation of
+// a method that is already defined in its superclass.
+
 package lect_9;
 class animal{
     void eat(){
