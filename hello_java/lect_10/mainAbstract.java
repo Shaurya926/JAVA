@@ -1,4 +1,6 @@
 package lect_10;
+// So this program demonstrates abstraction (hiding the idea of extinction in a general class)
+// and implementation (providing the actual extinction logic in Dino).
 abstract class spice{
     abstract void extinct();
 }

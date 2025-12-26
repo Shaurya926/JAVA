@@ -1,4 +1,6 @@
 package lect_10;
+//THIS PROGRAM EXPLAIN HOW THE CHILD CLASS INHERITED FROM PARENT CLASS.
+
 class animal{
     void eat(){
         System.out.println("burger");

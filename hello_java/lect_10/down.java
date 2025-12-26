@@ -1,5 +1,5 @@
 package lect_10;
-
+// The program explain Uprcasting and Downcasting.
 class animal1{
     void eat(){
         System.out.println("burger");
