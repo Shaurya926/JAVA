@@ -12,11 +12,11 @@ public class C2 {
         ListIterator<Integer> it = list.listIterator();
         while(it.hasNext()){
             Integer i = it.next();
-            System.out.println(i);
+            System.out.println("ArrayList element "+i);
         }
         while(it.hasPrevious()){
             Integer i = it.previous();
-            System.out.println(i);
+            System.out.println("Reverse ArrayList element "+i);
         }
     }
 }
