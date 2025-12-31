@@ -1,6 +1,9 @@
 package lect_18;
 import java.util.ArrayList;
 import java.util.Iterator;
+// An Iterator provides a safe way to traverse a collection (like ArrayList) element by element.
+//        - It avoids problems like ConcurrentModificationException that occur if you try to remove elements
+//directly from the list while looping with for-each.
 
 public class C1 {
     public static void main(String[] args) {
