@@ -19,7 +19,7 @@ public class C2 {
         }
 
         public static void main(String[] args) {
-            char ch = 'e'; // change input here
+            char ch = 'r'; // change input here
 
             // Vowel string (both lowercase & uppercase)
             String vowels = "aeiouAEIOU";
