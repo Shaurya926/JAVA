@@ -18,7 +18,7 @@ public class C1 {
         }
 
         public static void main(String[] args) {
-            String str = "baa"; // change input here
+            String str = "bbb"; // change input here
 
             if (str.length() == 0) {
                 System.out.println("Empty string");
