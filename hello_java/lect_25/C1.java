@@ -1,4 +1,4 @@
 package lect_25;
 
-public class J1 {
+public class C1 {
 }
